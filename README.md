@@ -18,11 +18,23 @@ The docker compose YML file runs wordpress, phpmyadmin and mariadb in localhost
 - phpmyadmin
 
 ## Installation
+
+#### Clone the repository
+```
+- git clone git@github.com:Njaya2019/docker-compose-wordpress.git
+```
+#### Change the directory to the project's root directory
+```
+- cd docker-compose-wordpress
+```
+
+#### Download and install docker desktop
+
 ```
 - Install docker desktop
 ```
 
-## Run the services
+##### Run the services in the docker compose file
 ```
 - docker-compose up -d
 ```
