@@ -17,6 +17,15 @@ The docker compose YML file runs wordpress, phpmyadmin and mariadb in localhost
 - wordpress
 - phpmyadmin
 
+## Installation
+```
+- Install docker desktop
+```
+
+## Run the services
+```
+- docker-compose up -d
+```
 ### wordpress url
 ```
 localhost:8000
@@ -25,10 +34,6 @@ localhost:8000
 ### phpmyadmin url
 ```
 localhost:8181
-```
-## Run the services
-```
-- docker-compose up -d
 ```
 
 #### Note
